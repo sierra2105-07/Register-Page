@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.reg-card {
+    background-color: white;
+    padding: 40px 16px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.pfp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.pfp img {
+    width: 150px;
+    height: 150px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field-phone{
+    margin-bottom: 20px;
+}
+
+.field-gender{
+    margin-bottom: 20px;
+}
+
+.phone-gender {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.field-phone input{
+    width: 190px;
+}
+
+.field-gender input{
+    width: 165px;
+}
+
+.phone-gender {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+input:focus{
+    border: 1px solid rgb(255, 131, 193);
+}
+
+button {
+    width: 100%;
+    padding: 10px 8px;
+}
+
+.bt-rg {
+    margin-bottom: 8px;
+    background-color: rgb(255, 207, 252);
+    color: black;
+    border: 1px solid rgb(255, 207, 252);
+    border-radius: 6px;
+}
+
+.bt-rg:hover{
+    background-color: rgb(255, 131, 193);
+    cursor: pointer;
+}
+
+.bt-btlg {
+    border: 1px solid rgb(255, 207, 252);
+    background-color: white;
+    border-radius: 6px;
+}
+
+.bt-btlg:hover{
+    background-color: rgb(255, 131, 193);
+    cursor: pointer;
+}
